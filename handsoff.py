@@ -9,7 +9,7 @@ from agents import Agent, Runner, RunConfig, AsyncOpenAI, OpenAIChatCompletionMo
 # e hoti ha
 # #  
 external_client = AsyncOpenAI( #its a provider
-    api_key="AIzaSyD3GJroIiJ1hZwdTi1HTyatKCupyniz4Ro",
+    api_key="API_KEY",
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/" # comunicatipon protocol is a api jisko unho ne deploy kiya ha or usko use krna ka way h ha hum use krna hata hai toh woh cloud pe uplaod hona chiaya
 )
 
